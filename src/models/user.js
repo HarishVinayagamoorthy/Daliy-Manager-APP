@@ -1,5 +1,4 @@
 import mongoose from "./index.js";
-import todos from "./Todo.js"; // Make sure to import the Todo model
 
 const UserSchema = new mongoose.Schema({
   username: {
