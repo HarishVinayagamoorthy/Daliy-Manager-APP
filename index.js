@@ -17,5 +17,8 @@ app.use(cors())
 
 app.use(express.json())
 app.use('/',AppRouter)
+app.get('/',(req,res)=>{
+    res.send("<h1> Backend Of Daliy Manager APP</h1>")
+})
 
 app.listen(PORT,()=>{console.log(`Server listening to port ${PORT}`)})
