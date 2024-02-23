@@ -1,0 +1,41 @@
+/* SignInComponent.module.css */
+
+.signin-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signin-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.signin-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signin-container label {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.signin-container input {
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.signin-container button {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
