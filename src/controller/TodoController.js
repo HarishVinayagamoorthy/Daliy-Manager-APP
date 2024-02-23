@@ -1,5 +1,4 @@
 import Todo from "../models/Todo.js"
-import UserModel from "../models/user.js"
 
 
 

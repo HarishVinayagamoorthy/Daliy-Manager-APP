@@ -1,7 +1,6 @@
 import express from "express"
 import TodoController from "../controller/TodoController.js"
-import Auth from "../common/Auth.js"
-
+import Auth from "../common/middelware.js"
 const router=express.Router()
 
 

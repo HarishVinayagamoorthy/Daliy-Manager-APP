@@ -1,6 +1,5 @@
 import UserModel from "../models/user.js"
-import Auth from "../common/Auth.js"
-import { response } from "express";
+import Auth from "../common/middelware.js"
 
 const CreateUser = async (req, res) => {
     try {
